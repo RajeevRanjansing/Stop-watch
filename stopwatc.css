@@ -1,0 +1,60 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.stopwatch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vmin;
+    width:100%;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    height:40vmin;
+    width:40%;
+    border:2px solid black;
+}
+
+.watch{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+h2{
+    font-size: 32px;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    height:30px;
+    width:80px;
+    font-size: 18px;
+    color:white;
+    border:none;
+    font-family:cursive;
+    margin-top: 70px;
+}
+
+#btnOne{
+    background-color: blueviolet;
+}
+
+#btnTwo{
+    background-color: red;
+}
+
+#btnThree{
+    background-color: green;
+}
